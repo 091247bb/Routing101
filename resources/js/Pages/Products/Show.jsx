@@ -19,7 +19,7 @@ export default function Show({ product }) {
 
                         <p className="mt-4 text-gray-600">{product.description}</p>
                         <p className="mt-4 text-lg font-medium text-gray-800">
-                            Price: <span className="text-green-600">{product.price} Baht</span>
+                            Price: <span className="text-green-600">{product.price} ฿</span>
                         </p>
                         <hr className="my-6 border-gray-300" />
 
